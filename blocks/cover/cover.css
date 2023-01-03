@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.cover:hover {
+  background-color: #2A2C2F;
+  opacity: .8;
+  z-index: 1;
+}
+
 @media screen and (max-width: 1100px) {
   .cover {
     min-height: 685px;
